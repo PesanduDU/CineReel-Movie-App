@@ -85,9 +85,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text=" First Name"
+                android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_gravity="center"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="15dp"/>
 
         <EditText
             android:id="@+id/editTextFirstName"
@@ -112,6 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Last Name"
+                android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"/>
@@ -139,6 +141,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="User Name"
+                android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"/>
@@ -166,6 +169,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Email"
+                android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"/>
@@ -193,6 +197,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Password"
+                android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"/>
@@ -219,7 +224,8 @@
             android:layout_width="200px"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Mobile NUmber"
+            android:text="Mobile Number"
+                android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"/>

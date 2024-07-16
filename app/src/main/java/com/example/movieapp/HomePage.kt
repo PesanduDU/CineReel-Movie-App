@@ -63,10 +63,14 @@ class HomePage : AppCompatActivity() {
         backButton.setOnClickListener{
             val alertDialogBuilder = AlertDialog.Builder(this)
 
+            val goToMain = Intent(applicationContext,MainActivity::class.java)
+//            startActivity(goToMain)
+
             alertDialogBuilder.setTitle("Alert!")
             alertDialogBuilder.setMessage("Do you want to exit?")
             alertDialogBuilder.setCancelable(false)
-            alertDialogBuilder.setPositiveButton("Yes"){_,_ -> finish()}
+//            alertDialogBuilder.setPositiveButton("Yes"){_,_ -> finish()}
+            alertDialogBuilder.setPositiveButton("Yes"){_,_ -> startActivity(goToMain)}
 //            alertDialogBuilder.setNegativeButton("No"){_,_ ->
 //                Toast.makeText(this,"Clicked No", Toast.LENGTH_SHORT).show()
 //                Toast.makeText(this,"Good", Toast.LENGTH_LONG).show()
